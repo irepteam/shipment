@@ -27,6 +27,8 @@ grunt serve
 
 => localhost:9000
 
+=============================================================================
+
 1. Viet 1 api vi du cho user phia server NodeJS
 
 Trong server/api/member : 
@@ -41,6 +43,14 @@ Trong file controller member goi den api
       $scope.members = members;
     });
 
-3. style code JavaScript
+3. Tao 1 api phia server voi yeoman:
+
+yo angular-fullstack:endpoint member
+
+4. Tao component phia client voi yeoman:
+
+yo angular-fullstack:route member
+
+* Note: style code JavaScript
 
 http://cuongbkvn.blogspot.jp/2015/04/javascipt-style-guide.html
