@@ -16,7 +16,7 @@ yo angular-fullstack
 +)Dau tien khi chay phai chay cau lenh (de install cac pakgage can thiet):
 
 npm install 
-
+bower install
 +) Chay server
 
 node server/app.js
