@@ -43,10 +43,11 @@ Trong file controller member goi den api
       $scope.members = members;
     });
 
-3. Tao 1 api phia server voi yeoman
+3. Tao 1 api phia server voi yeoman:
+
 yo angular-fullstack:endpoint member
 
-4. Tao component phia client voi yeoman
+4. Tao component phia client voi yeoman:
 
 yo angular-fullstack:route member
 
